@@ -9,12 +9,10 @@
 		"scope": "typescriptreact",
 		"prefix": "rcf",
 		"body": [
-			"import React from 'react';",
-      "",
-			"type ${TM_FILENAME_BASE}Props = {};",
+			"type ${TM_FILENAME_BASE}${0}Props = {};",
 			"",
-			"export function ${TM_FILENAME_BASE}(props: ${TM_FILENAME_BASE}Props) {",
-			"\treturn <div></div>",
+			"export function ${TM_FILENAME_BASE}${0}(props: ${TM_FILENAME_BASE}Props) {",
+			"\treturn <div/>",
 			"};"
 		],
 		"description": "Init my component"
